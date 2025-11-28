@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:controller="MainMenuController" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="380.0" prefWidth="437.0" style="-fx-background-color: #87d1ff;" xmlns="http://javafx.com/javafx/24.0.1" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Label fx:id="menuLabel" layoutX="115.0" layoutY="14.0" text="Main Menu">
+         <font>
+            <Font name="Bookman Old Style Italic" size="36.0" />
+         </font>
+      </Label>
+      <Button fx:id="transactionButton" layoutX="233.0" layoutY="120.0" mnemonicParsing="false" onAction="#handleTransaction" style="-fx-background-color: #cab1f0;" text="Transactions">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Button>
+      <Button fx:id="accountsButton" layoutX="27.0" layoutY="120.0" mnemonicParsing="false" onAction="#handleAccounts" prefHeight="51.0" prefWidth="142.0" style="-fx-background-color: #cab1f0;" text="Accounts">
+         <font>
+            <Font name="Bookman Old Style" size="24.0" />
+         </font>
+      </Button>
+      <Button fx:id="depoButton" layoutX="27.0" layoutY="225.0" mnemonicParsing="false" onAction="#handleDepo" prefHeight="45.0" prefWidth="146.0" style="-fx-background-color: #cab1f0;" text="Deposit">
+         <font>
+            <Font name="Bookman Old Style" size="24.0" />
+         </font>
+      </Button>
+      <Button fx:id="withButton" layoutX="233.0" layoutY="225.0" mnemonicParsing="false" onAction="#handleWith" prefHeight="45.0" prefWidth="164.0" style="-fx-background-color: #cab1f0;" text="Withdraw">
+         <font>
+            <Font name="Bookman Old Style" size="24.0" />
+         </font>
+      </Button>
+      <Button fx:id="logoutButton" layoutX="155.0" layoutY="307.0" mnemonicParsing="false" onAction="#handleLogout" style="-fx-background-color: #ff7493;" text="Logout">
+         <font>
+            <Font name="Bookman Old Style" size="24.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>
